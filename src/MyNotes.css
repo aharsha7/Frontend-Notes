@@ -26,9 +26,8 @@ body::before {
 
 h1 {
   top: 0;
-  left: -10px;
+  left: -5px;
   color: white;
-  font-size: 105rem;
   margin: 0 52px;
   font-size: 55px;
   position: relative;
@@ -122,10 +121,17 @@ h1 {
 }
 
 .search-bar {
-  width: 280px;
-  border-radius: 8px;
-  height: 45px;
-  margin: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.search-bar:focus {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  outline: none;
 }
 
 .filter-tabs {
