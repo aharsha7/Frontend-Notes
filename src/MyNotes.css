@@ -121,6 +121,7 @@ h1 {
 }
 
 .search-bar {
+  font-size: 15px;
   width: 300px;
   border: 1px solid #ccc;
   border-radius: 20px;
